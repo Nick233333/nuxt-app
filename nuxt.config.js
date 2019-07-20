@@ -5,11 +5,12 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Ant Design Vue SSR' || process.env.npm_package_name,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'keyword', name: 'keyword', content: 'vue,ssr,ant design vue, nuxt' || process.env.npm_package_description },
+      { hid: 'description', name: 'description', content: '开箱即用的高质量 Vue 组件,共享Ant Design of React设计工具体系' || process.env.npm_package_description }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

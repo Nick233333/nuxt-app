@@ -3,6 +3,7 @@
     <div>
       <Header />
       <nuxt />
+      <Footer />
       <a-back-top :visibility-height="100" />
     </div>
   </a-locale-provider>
@@ -11,10 +12,12 @@
 <script>
 import zhCN from 'ant-design-vue/lib/locale-provider/zh_CN'
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export default {
   components: {
-    Header
+    Header,
+    Footer
   },
   data() {
     return {
