@@ -4,6 +4,8 @@
 
 > 使用 nginx 反向代理部署时需要配置项目 static 目录 root /path/project/static 否则 favicon.ico 会 404 
 
+> nginx 如果配置 Cache-Controller 或者 expires 会导致 js 文件 404 
+
 > pm2 部署命令 pm2 start npm --watch --name nuxt-app -- start
 
 ## Build Setup
