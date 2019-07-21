@@ -1,6 +1,10 @@
-# nuxt
+## 注意点
 
-> My peachy Nuxt.js project
+> nuxt.config.js 文件修改之后需要重启服务，否则不生效
+
+> 使用 nginx 反向代理部署时需要配置项目 static 目录 root /path/project/static 否则 favicon.ico 会 404 
+
+> pm2 部署命令 pm2 start npm --watch --name nuxt-app -- start
 
 ## Build Setup
 
